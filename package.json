@@ -1,0 +1,19 @@
+{
+  "name": "chatterbox",
+  "version:": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified.\" && exit 1",
+    "start": "node scripts\\index.js",
+    "dev": "nodemon scripts\\index.js"
+  },
+  "author": "Ryan Patrick",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
